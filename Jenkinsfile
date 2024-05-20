@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage('CheckOut'){
       steps{
-        ehco "step scm"
+        echo "step scm"
       }
     }
     stage('Build'){
