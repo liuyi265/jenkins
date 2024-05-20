@@ -13,7 +13,7 @@ pipeline{
     stage('Build'){
       steps{
         script{
-          println("${branchName}")
+          println("Build")
           tools.PrintMes("获取代码","green")
         }
       }
