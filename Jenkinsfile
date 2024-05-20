@@ -1,6 +1,5 @@
 #!groovy
 def tools = new org.devops.tools()
-branchName = branch - "refs/heads/"
 @Library('jenkins@main') _
 pipeline{
   agent any
